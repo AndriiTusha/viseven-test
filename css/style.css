@@ -1,0 +1,212 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+}
+
+body {
+	background: #fff;
+}
+
+.main-container {
+	max-width: 1445px;
+	overflow: hidden;
+}
+
+.header {
+	width: 945px;
+	margin: 0 auto;
+}
+
+.navigation {
+	width: 100%;
+	height: 90px;
+	padding-top: 40px;
+	border-bottom: 2px solid #828282;
+}
+
+.navigation__menu {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	color: #828282;
+	font-weight: 700;
+}
+
+.navigation__menu li:first-child {
+	color: #070707;
+}
+
+.home {
+	margin-top: 35px;
+}
+
+.home__info {
+	display: flex;
+	justify-content: space-between;
+	color: #070707;
+}
+
+.home__info_left h1 {
+	font-size: 60px;
+}
+
+.home__info_right {
+	text-align: right;
+}
+
+.home__photo {
+	margin-top: 59px;
+	margin-bottom: 100px;
+}
+
+.about {
+	background-color: #f4f4f4;
+	color: #070707;
+}
+
+.about__title {
+	width: 945px;
+	margin: 0 auto;
+	height: 140px;
+	line-height: 140px;
+	text-align: center;
+	margin-top: 50px;
+	font-weight: 700;
+}
+
+.about__title {
+	font-size: 34px;
+}
+
+.about__container {
+	width: 945px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about__container_img {
+	width: 450px;
+	height: 450px;
+	margin-bottom: 50px;
+}
+
+.about__container_text {
+	font-size: 20px;
+	font-weight: 500;
+	align-self: center;
+	width: 450px;
+}
+
+.skills__title {
+	font-size: 34px;
+	text-align: center;
+	margin: 50px 0;
+	font-weight: 700;
+}
+
+.skills__container {
+	width: 945px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.skills__container_block {
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.skills__container .top {
+	width: 91px;
+	height: 88px;
+	background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+;
+}
+
+.skills__container .block__fg .top {
+	background: transparent;
+}
+
+.skills__container .mid {
+	text-align: center;
+	margin-top: 24px;
+	margin-bottom: 40px;
+	color: #828282;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.portfolio {
+	background: #f4f4f4;
+	width: 1445px;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+.portfolio__title {
+	font-size: 34px;
+	text-align: center;
+	margin-bottom: 50px;
+	font-weight: 700;
+}
+
+.portfolio__container {
+	margin: 0 auto;
+	width: 945px;
+	height: 510px;
+	margin-bottom: 40px;
+}
+
+.portfolio__subtitle {
+	font-size: 18px;
+	text-align: center;
+	font-weight: 500;
+	color: #070707;
+	margin-bottom: 86px;
+	text-decoration-line: underline;
+}
+
+.portfolio__subtitle:last-child {
+	margin-bottom: 0;
+}
+
+.portfolio__container-top {
+	background-image: url(../img/Sneakers.png);
+}
+
+.portfolio__container-mid {
+	background-image: url(../img/Helias.png);
+}
+
+.portfolio__container-bottom {
+	background-image: url(../img/Hoang.png);
+}
+
+.contacts {
+	width: 1445px;
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+
+.contacts__title {
+	font-size: 34px;
+	text-align: center;
+	margin-bottom: 50px;
+	font-weight: 700;
+}
+
+.contacts__container {
+	margin: 0 auto;
+	width: 340px;
+	display: flex;
+	justify-content: space-between;
+}
